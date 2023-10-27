@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: dodgerblue;
+    background-image: url(https://images.unsplash.com/photo-1625225233840-695456021cde?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsY3VsYXRvcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    height: 75vh;
+    width: 30vw;
+    margin: 15vh 15vw;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    box-shadow:
+    inset 5px 5px 10px dodgerblue,
+    inset 5px 5px 20px dodgerblue,
+    inset -5px -5px 15px black;
+}
+
+.text-container{
+    position: relative;
+    height: 6vh;
+    top: 3vh;
+    width: 26vw;
+    margin: 0 2vw;
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+}
+
+.input{
+    position: relative;
+    height: 8vh;
+    width: 24vw;
+    margin: 6vh 2vw 0;
+    font-size: 5vh;
+    border: none;
+    color: black;
+    padding: 0 1vw ;
+}
+
+.container2{
+    position: relative;
+    margin: 2vh 2vw;
+    height: 49vh;
+    width: 26vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    position: relative;
+    height: 8vh;
+    width: 6vw;
+    font-size: 5vh;
+    margin: 7px 1px;
+    border: none;
+    border-radius: 5px;
+}
+
+#ac{
+    background-color:rgb(255, 13, 142);
+}
+
+#del{
+    background-color: red;
+}
+
+#equal{
+    background-color: green;
+    width: 12vw;
+}
+
+#operator{
+    background-color: #e08c24;
+}
+
+#number{
+    background-color: #7d7c84;
+}
